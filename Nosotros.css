@@ -1,0 +1,57 @@
+
+.Contenedor2 {
+    background-color: rgba(227, 177, 119, 0.379);
+    width:90%; /* Establecemos que el ancho sera del 90% */
+	max-width:1200px; /* Aqui le decimos que el ancho máximo sera de 1000px */
+	margin:auto;
+    display: flex;
+    justify-content: center;
+    position:relative;
+    vertical-align: middle;
+	padding:10px 20px;
+}
+.Contenedor2 h2, p{
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+}
+
+
+
+
+
+#Object{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    width:90%; /* Establecemos que el ancho sera del 90% */
+	max-width:2000px; 
+    position:relative;
+    vertical-align: middle;
+	padding:20px 75px;
+}
+#Object .Contenedor3 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    width:90%; /* Establecemos que el ancho sera del 90% */
+	max-width:600px; 
+}
+#Object .Contenedor4 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    width:90%; /* Establecemos que el ancho sera del 90% */
+	max-width:600px; 
+}
+
+
+#Object article{
+    margin: 15px;
+}
+#Object h3, h2, p{
+    text-align: center;
+}
+

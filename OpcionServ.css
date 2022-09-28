@@ -1,0 +1,56 @@
+/*Z-DyCyV.html*/
+
+#bannerServ {
+    margin-top: 0px;
+    position:relative;
+    background-color: rgb(244, 244, 244);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#bannerServ img{
+    width: 100%;
+    max-width: 800px;
+    height: 100%;
+    margin: 10px;
+}
+
+.SerContenedor{
+    display: flex;
+    flex-wrap: wrap; 
+    width:80%; /* Establecemos que el ancho sera del 90% */
+	max-width:500px; 
+    margin: 10px;
+    background-color: rgba(193, 188, 188, 0.437);
+    padding: 10px;
+}
+.SerContenedor p{
+text-align: left;
+}
+
+#bannerServ p{
+    text-align: justify;
+}
+
+#bannerServ a{
+    width: 100px;
+    height: 40px;
+    display: block;
+    color:rgb(49, 45, 45);
+    text-decoration: none;
+    padding: 5px;
+    margin-top: 10px;
+    border: 3px solid rgb(23, 23, 23);
+    background:#ffffff;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+}
+#bannerServ a:hover {
+    border: 3px solid #fff;
+    color:#fff;
+	background:#231a35ac;
+	border-radius:100px;
+}

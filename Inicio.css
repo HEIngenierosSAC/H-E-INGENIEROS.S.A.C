@@ -1,0 +1,142 @@
+
+.Container {
+    background-color:#252440;
+    padding: 2em;
+    overflow: hidden;
+    width:80%; /* Establecemos que el ancho sera del 90% */
+	max-width:1000px; /* Aqui le decimos que el ancho máximo sera de 1000px */
+	margin:auto;
+    display: flex;
+    justify-content: center;
+}
+/*Imagen*/
+
+
+.img1{
+    margin: 40%;
+    height:40%;
+}
+/*Final Imagen*/
+
+
+.Item1{
+    margin:1em;
+    padding:1em;
+    float:left
+}
+
+.Parrafo1{
+    margin-top: 10%;
+    margin-right: 10%;
+    overflow: hidden;
+    text-align: justify;
+    font-style: Arial;
+    font-size: 30px;
+    margin: 2;
+    justify-content: center;
+}
+
+/*Banner*/
+section{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+#banner {
+    margin-top: 0px;
+    position:relative;
+}
+
+#banner img{
+    width: 100%;
+    height: 100%;
+
+}
+
+#banner .Contenedor1 {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    Color: #fff;
+}
+
+#banner h2{
+    font-size: 28px;
+}
+
+#banner a{
+    width: 100px;
+    display: block;
+    color:#fff;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+    border: 3px solid #fff;
+}
+
+#banner a:hover {
+    background: rgba(51,51,51,0.5)
+}
+
+/*Presentación*/
+#Bienvenidos{
+    text-align: center;
+}
+
+/*Servicios Tipo*/
+#Serv h3, h4{
+    text-align: center;
+}
+
+#Serv .Contenedor1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+#Serv article{
+    margin: 15px;
+}
+
+#Serv img{
+    width: 100%;
+    max-width: 280px;
+}
+
+
+/*Footer*/
+footer .Contenedor1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px;
+    background: rgba(70,70,70,0.8);
+    justify-content: center;
+}
+
+.copy {
+    font-size: 20px;
+}
+
+.Sociales {
+   width: 100%;
+    text-align: center;
+    font-size: 28px;
+}
+
+.Sociales a{
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+}
+.Sociales img{
+    width: 100%;
+    max-width: 30px;   
+}
+
+
+.Sociales article{
+    margin: 15px;
+}
